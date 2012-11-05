@@ -241,29 +241,29 @@ In this task, you will add the **AdventureWorks** database that will be used by 
 
 1. Restart SQL Server. In the **Object Explorer**, right-click on the server node and select **Restart**. 
 
-1. This lab uses the **AdventureWorks** database. Open an **Internet Explorer** browser and go to <http://msftdbprodsamples.codeplex.com/> to download  the **SQL Server 2012** sample databases. Once on the page click SQL Server 2012 DW and then download Adventure Works 2012 Data File. Download the file to F:\Data.
+1. This lab uses the **AdventureWorks2012** database. Open an **Internet Explorer** browser and go to <http://msftdbprodsamples.codeplex.com/> to download  the **SQL Server 2012** sample databases. Once on the page click SQL Server 2012 DW and then download Adventure Works 2012 Data File. Download the file to F:\Data.
 
 1. Right click the database file and open the properties. Click **unblock**.
 
-1. Add the **AdventureWorks** sample database to your SQL Server. To do this, open **SQL Server Management Studio**, connect to **(local)** using your Windows Account. Locate your SQL Server instance node and expand it.
+1. Add the **AdventureWorks2012** sample database to your SQL Server. To do this, open **SQL Server Management Studio**, connect to **(local)** using your Windows Account. Locate your SQL Server instance node and expand it.
 
 1. Right click **Databases** folder and select **Attach**.
 
-	![Object Explorer - Attaching AdventureWorks Database](Images/attaching-adventureworks-database-menu.png?raw=true)
+	![Object Explorer - Attaching AdventureWorks2012 Database](Images/attaching-adventureworks-database-menu.png?raw=true)
  
-	_Object Explorer - Attaching Adventureworks Database_
+	_Object Explorer - Attaching Adventureworks2012 Database_
 
-1. In the **Attach Databases** dialog, press **Add**. Browse to the data disk and select the Adventure Works data file.
+1. In the **Attach Databases** dialog, press **Add**. Browse to the data disk and select the Adventure Works 2012 data file.
 
-1. Now, select the AdventureWorks Log's row within **database details** and click **Remove**.
+1. Now, select the AdventureWorks2012 Log's row within **database details** and click **Remove**.
 
  	![Attaching AdventureWorks Database](./Images/attaching-adventureworks-database.png?raw=true "Attaching AdventureWorks Database")
  
-	_Attaching AdventureWorks Database_
+	_Attaching AdventureWorks2012 Database_
 
 1. Click **OK** to attach the database. 
 
-1. Create a Full Text Catalog for the database. You will consume this feature with a MVC application you will deploy in the next exercise. To do this, expand **Storage** node within **AdventureWorks** database.
+1. Create a Full Text Catalog for the database. You will consume this feature with a MVC application you will deploy in the next exercise. To do this, expand **Storage** node within **AdventureWorks2012** database.
 
 1. Right-click **Full Text Catalogs** folder and select **New Full-Text Catalog**.
 
@@ -311,9 +311,9 @@ In this task, you will add the **AdventureWorks** database that will be used by 
 
 1. Go to **User Mapping** section. Map the user to the _AdventureWorks2012_ database and click **OK**.
 
- 	![Mapping the new User to the AdventureWorks Database](./Images/Mapping-the-new-User.png?raw=true "Mapping the new User to the AdventureWorks Database")
+ 	![Mapping the new User to the AdventureWorks2012 Database](./Images/Mapping-the-new-User.png?raw=true "Mapping the new User to the AdventureWorks Database")
  
-	_Mapping the new User to the AdventureWorks Database_
+	_Mapping the new User to the AdventureWorks2012 Database_
 
 1. Expand **AdventureWorks2012** database within **Databases** folder. In the **Security** folder, expand **Users** and double-click **CloudShop** user.
 
