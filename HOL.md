@@ -8,8 +8,6 @@
 
 In this lab, you will create a Virtual Machine with SQL Server installed using Windows Azure Management Portal. Then you will modify and deploy a sample Web application to a new Cloud Service. By the end, you will communicate the Cloud Service and the SQL Server VM through a Virtual Network.
 
-> **Note:** A Visual Studio 2012 version of this Hands-on Lab can be found in the latest build of the [Windows Azure training kit](http://bit.ly/WindowsAzureTK) or in [GitHub](https://github.com/WindowsAzure-TrainingKit/HOL-WindowsAzureVMandWebRoleVNet-VS2012).
-
 <a name="Objectives"></a>
 ### Objectives ###
 
