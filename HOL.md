@@ -52,7 +52,7 @@ For this lab, you will define a virtual network where you can assign the virtual
 
 The first task is to create a new Virtual Network to your subscription with a new affinity group.
 
-1. In the Windows Azure Portal, click **New**, select **Networks** | **Virtual Network** and then click **Custom Create**.
+1. Open a browser and go to [https://manage.windowsazure.com/](https://manage.windowsazure.com/). When prompted, login with your **Windows Azure** credentials. In the Windows Azure Portal, click **New**, select **Networks** | **Virtual Network** and then click **Custom Create**.
 
 	![Virtual Network custom create](Images/virtual-network-custom-create.png?raw=true)
 
@@ -150,6 +150,8 @@ In this task, you will set up SQL Server and configure it to enable remote acces
 	_Windows Azure Portal_
 
 1. Select your virtual machine from the virtual machines list and click **Connect** to connect using **Remote Desktop Connection**.
+
+	> **Note:** use the credentials that you inserted when creating the virtual machine in the previous task.
 
 1. In the virtual machine, open **Server Manager** from **Start | All Programs | Administrative Tools**.
 
