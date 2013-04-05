@@ -470,8 +470,8 @@ In this task, you will publish the Web Application to Windows Azure using Visual
 
 ---
 
-<a name="Summary"></a>
-### Summary ###
+<a name="Summary"/></a>
+## Summary ##
 
 By completing this hands-on lab, you have learnt how to:
 
