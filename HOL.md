@@ -112,7 +112,7 @@ In this task, you will create a new virtual machine using the Windows Azure Port
 
 	_Setting the Virtual Machine Mode_
 
-1. In the **Virtual machine Options** page, leave the default values and click the finish button to create the new virtual machine.
+1. In the **Virtual machine options** page, leave the default values and click the finish button to create the new virtual machine.
 
 	![Virtual Machine Options](Images/vm-options.png?raw=true "Virtual Machine Options")
 
@@ -132,7 +132,7 @@ In this task, you will create a new virtual machine using the Windows Azure Port
 
 1. In the **Attach Empty Disk** page, set the **Size** to _50_ GB and create the Disk.
 
-1. Wait until the attach disk process finishes. Repeat the steps 8 to 10 to create a second disk.
+1. Wait until the attach disk process finishes. Repeat the steps 9 and 10 to create a second disk.
 
 1. You will see three disks for the virtual machine: one for the **OS** and other two for **Data** and **Logs**.
 
