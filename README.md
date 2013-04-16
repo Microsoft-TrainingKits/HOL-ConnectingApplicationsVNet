@@ -1,4 +1,4 @@
-﻿# Connecting a PaaS application to an IaaS Application with a Virtual Network - for Visual Studio 2012 #
+# Connecting a PaaS application to an IaaS Application with a Virtual Network #
 
 ## Hands-on Lab ##
 
