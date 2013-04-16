@@ -1,4 +1,4 @@
-# Connecting a PaaS application to an IaaS Application with a Virtual Network #
+﻿# Connecting a PaaS application to an IaaS Application with a Virtual Network #
 
 ## Hands-on Lab ##
 
@@ -6,7 +6,7 @@
 
 Hands-on labs are sets of step-by-step guides that are designed to help you learn how to use key Windows Azure services and features.  Each Lab provides instructions to guide you through the process of developing a complete application.
 
-In this lab, you will create a Virtual Machine with SQL Server installed using Windows Azure Management Portal. Then you will modify and deploy a sample Web application to a new Cloud Service. By the end, you will communicate the Cloud Service and the SQL Server VM through a Virtual Network.
+In this lab, you will create a Virtual Machine with SQL Server installed using Windows Azure Management Portal. Then you will modify and deploy a sample Web application to a new Cloud Service. By the end, you will communicate the Cloud Service and the SQL Server Virtual Machine through a Virtual Network.
 
 > **Note:** You can download the latest build of the Windows Azure Training Kit which includes a tested version of this HOL from here: http://bit.ly/WindowsAzureTK.
 
@@ -14,7 +14,7 @@ Visit our [GitHub Homepage](http://windowsazure-trainingkit.github.com/) for mor
 
 ### Repository Structure ###
 
-In the **root** folder of this repository you will find the Hands-On Lab (HOL) document, **HOL.md**. Before beginning with the HOL exercises, make sure you have followed all the required steps indicated at the setup section of the HOL document. 
+In the **root** folder of this repository you will find the hands-on Lab (HOL) document, **HOL.md**. Before beginning with the HOL exercises, make sure you have followed all the required steps indicated at the setup section of the HOL document. 
 
 In the **Source** folder you will find the source code of each of the exercises, as well as the assets and setup scripts. Throughout the HOL you will be instructed to open and explore the different solutions from the source folder. It is typically comprised of the following subfolders:
 
@@ -22,7 +22,7 @@ In the **Source** folder you will find the source code of each of the exercises,
 - **_Exercise Name_:** Each exercise that requires a programming solution has its own code folder.
   - **Begin:** The begin solution is the initial incomplete solution that you will finish by following the steps of the corresponding exercise.
   - **End:** The end solution is the final result you will achieve at the end of an exercise.
-- **Setup:** This folder contains the dependency files and the setup scripts necessary to initialize specific configurations of the lab, being its execution is required in the majority of the Hands-on Labs.
+- **Setup:** This folder contains the dependency files and the setup scripts necessary to initialize specific configurations of the lab, being its execution is required in the majority of the hands-on Labs.
 
 ### Get Started ###
 
